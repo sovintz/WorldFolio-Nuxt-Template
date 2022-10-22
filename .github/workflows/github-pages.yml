@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - main
+defaults:
+  run:
+    working-directory: src
 permissions:
   contents: write
 jobs:
